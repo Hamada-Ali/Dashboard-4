@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+    .sidebar {
+        width: 77px;
+        padding: 17px;
+    }
+    .no-mobile {
+        display: none;
+    }
+
+    .sidebar > h3 {
+        margin-bottom: 0;
+    }
+    .sidebar > h3::before,
+    .sidebar > h3::after {
+        display: none;
+    }
+    .head .search input {
+        width: 167px;
+    }
+    .head .search input:focus {
+        width: 175px;
+    }
+}

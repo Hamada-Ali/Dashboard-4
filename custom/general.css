@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    min-height: 100vh;
+    background-color: #f1f5f9;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

@@ -1,0 +1,10 @@
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+
+/* for aligning the flex items to the center */
+.item-center {
+    align-items: center;
+}
+/* End Box */
