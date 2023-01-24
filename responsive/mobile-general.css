@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .text-center-mobile {
+        text-align: center;
+    }
+
+    .block-mobile {
+        display: block;
+    }
+}

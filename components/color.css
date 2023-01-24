@@ -6,3 +6,19 @@
     color: black;
 }
 
+.bg-eee {
+    background-color: var(--bg-eee);
+}
+
+.grey-color {
+    color: var(--grey-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.white-color {
+    color: #fff;
+}
+

@@ -20,4 +20,11 @@
     .head .search input:focus {
         width: 175px;
     }
+
+    .wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px 10px;
+    }
 }

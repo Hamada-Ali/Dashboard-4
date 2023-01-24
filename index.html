@@ -1,42 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
     <title>Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="page d-flex">
-        <div class=" sidebar bg-white p-20 p-relative">
-            <h3 class="t-center mt-0 p-relative">Agent</h3>
-            <ul class="list-none p-0">
-                <li><a href="index.html" class="active d-flex fs-14 c-black rad-6 p-10"><i class="fa-solid fa-chart-simple fa-fw"></i><span class='fs-14 no-mobile'>Dashboard</span></a></li>
-                <li><a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"><i class="fa-solid fa-gears"></i><span class='fs-14 no-mobile'>Settings</span></a></li>
-                <li><a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"><i class="fa-solid fa-book"></i><span class='fs-14 no-mobile'>courses</span></a></li>
-                <li><a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"><i class="fa-solid fa-user-group"></i><span class='fs-14 no-mobile'>friends</span></a></li>
-                <li><a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"><i class="fa-solid fa-file"></i><span class='fs-14 no-mobile'>Files</span></a></li>
-                <li><a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"><i class="fa-solid fa-money-check-dollar"></i><span class='fs-14 no-mobile'>plans</span></a></li>
-                <li><a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"><i class="fa-brands fa-r-project"></i><span class='fs-14 no-mobile'>projects</span></a></li>
-            </ul>
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="t-center mt-0 p-relative">Agent</h3>
+        <ul class="list-none p-0">
+          <li>
+            <a href="index.html" class="active d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-chart-simple fa-fw"></i
+              ><span class="fs-14 no-mobile">Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-gears"></i
+              ><span class="fs-14 no-mobile">Settings</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-book"></i
+              ><span class="fs-14 no-mobile">courses</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-user-group"></i
+              ><span class="fs-14 no-mobile">friends</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-file"></i
+              ><span class="fs-14 no-mobile">Files</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-money-check-dollar"></i
+              ><span class="fs-14 no-mobile">plans</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-brands fa-r-project"></i
+              ><span class="fs-14 no-mobile">projects</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full overflow-hidden">
+        <!-- HEAD -->
+        <div class="head between-flex bg-white p-15">
+          <div class="search p-relative">
+            <input
+              type="search"
+              class="p-15 input-border"
+              placeholder="search"
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="avatar" />
+          </div>
         </div>
-        <div class="content w-full overflow-hidden">
-            <!-- HEAD -->
-            <div class="head between-flex bg-white p-15">
-                <div class="search p-relative">
-                    <input type="search" class="p-15 input-border " placeholder="search">
-                </div>
-                <div class="icons d-flex align-center">
-                    <span class="notification p-relative">
-                        <i class="fa-regular fa-bell fa-lg"></i>
-                    </span>
-                    <img src="imgs/avatar.png" alt="avatar">
-                </div>
+        <!-- END HEAD -->
+        <h1 class="p-relative">Dashboard</h1>
+        <div class="wrapper d-grid gap-20 mr-20 ml-20">
+          <div class="welcome bg-white rad-10 text-center-mobile block-mobile">
+            <div class="intro p-20 d-flex bg-eee space-around">
+              <div>
+                <h2 class="m-0">Welcome</h2>
+                <p class="grey-color m-5">text text</p>
+              </div>
+              <img src="imgs/welcome.png" alt="welcome image" />
             </div>
-            <!-- END HEAD -->
+            <div class="content-body text-center d-flex p20 mb-20 block-mobile">
+              <div>User <span class="d-block grey-color fs-14 mt-10">Agent</span></div>
+              <div>Status <span class="d-block grey-color fs-14 mt-10">Online</span></div>
+              <div >Visitors <span class="d-block grey-color fs-14 mt-10">10,000</span></div>
+            </div>
+            <a href="index.html" class="visit d-block fs-14 rad-6 bg-blue color-white "></a>
+          </div>
         </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
