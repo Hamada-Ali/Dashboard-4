@@ -61,6 +61,14 @@ a {
     display: block;
 }
 
+.b-none {
+    border: none;
+}
+
+
+.text-left {
+    text-align: left;
+}
 
 .overflow-hidden {
     overflow: hidden;

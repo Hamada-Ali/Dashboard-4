@@ -2,9 +2,15 @@
 @import url(./components/variables.css);
 @import url(./custom/general.css);
 @import url(./components/color.css);
+@import url(./components/animations.css);
+@import url(./components/buttons.css);
 @import url(./components/size.css);
 @import url(./custom/sidebar.css);
 @import url(./custom/content.css);
+@import url(./custom/settings.css);
+@import url(./custom/courses.css);
+@import url(./custom/projects.css);
+@import url(./custom/profile.css);
 @import url(./custom/box.css);
 @import url(./responsive/mobile.css);
 @import url(./responsive/mobile-general.css);

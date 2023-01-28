@@ -6,4 +6,10 @@
     .block-mobile {
         display: block;
     }
+    .text-center-mobile {
+        text-align: center;
+    }
+    .mb-m-5 {
+        margin-bottom: 5px;
+    }
 }

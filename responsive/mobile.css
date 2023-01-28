@@ -22,9 +22,163 @@
     }
 
     .wrapper {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px 10px;
     }
+
+    .welcome .intro {
+        padding-bottom: 30px;
+    }
+
+    .welcome .content-body div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .welcome .avatar {
+        margin-left: 0;
+    }
+
+    .hide-in-mobile {
+        display: none;
+    }
+
+    .tickets .box {
+        width: 100%;
+    }
+
+    /* Latest */
+
+    .latest .news-row {
+        display: block;
+    }
+
+ .latest .news-row h3 {
+    font-size: 12px;
+    font-weight: bold;
+ }
+
+ .latest .news-row p {
+    margin-bottom: 15px;
+ }
+    .latest .label {
+        margin: 15px auto;
+        /* important statement */
+        width: -moz-fit-content; 
+        width: fit-content; 
+    }
+
+    /* uploads */
+
+    .latest-uploads ul {
+        margin-left: -37px;
+    }
+
+    /* Settings page */
+    
+    .setting-page {
+
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 15px;
+    }
+
+    /* Backup */
+    .backup-control .server-container {
+        flex-wrap: wrap;
+    }
+
+    /* profile page */
+
+    .profile-page .avatar-box {
+        border-right: 1px solid #EEE;
+    }
+    .profile-page .overview {
+        flex-direction: column;
+    }
+    .profile-page .info-box .box > div {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .profile-page .avatar-box {
+        width: 100%;
+        border-right: none;
+        margin-bottom: 10px;
+    }
+    .profile-page .info-box .box h4 {
+        text-align: center;
+    }
+    
+    /* Skills */
+
+    .profile-page .other-data {
+        flex-direction: column;
+    }
+
+    .profile-page .skills-card ul li span:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .profile-page .activities .activity {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-page .activities .activity img {
+        margin-right: 0;
+        margin-bottom: 10px;
+        
+    }
+
+    .profile-page .activities .activity .date {
+        margin: 10px 0px 0 0;
+        text-align: center;
+    }
+
+    .profile-page .activities .activity .date > .grey-color {
+        margin-top: 2px;
+    }
+    /* projects page */
+
+    .project-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+
+    .profile-page .project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-page .project .tech {
+        flex-direction: column;
+        
+    }
+
+    .project-page .project .tech span:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+
+    .project-page .project .info {
+        flex-direction: column;
+    }
+
+        /* Course page */
+
+    .course-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin: 0 10px 0 10px;
+        gap: 10px;
+    }
+    .course-page .course .info .description {
+        line-height: 22.4px;
+    }
 }
+
+

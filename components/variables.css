@@ -4,9 +4,21 @@
     --blue-alt-color: #0d69d5;
     --orange-color: #f59e06;
     --green-color: #22c55e;
+    --orange-solid-color: orange;
+    --green-solid-color: green;
     --red-color: #f44336;
     --grey-color: #888;
     --border-color: #CCC;
     --border-outline-color: #cccccc4a;
     --bg-eee:#eee;
+    --orange-color: rgb(245 158 11 / 20%);
+    --green-color: rgb(34 197 94 / 20%);
+    --facebook-color: #1876f2;
+    --facebook-bg: rgb(24 118 242 / 0.2);
+    --twitter-bg: rgb(29 161 242 / 0.3);
+    --twitter-color:#1da1f2;
+    --twitch-color:#9146ff;
+    --twitch-bg:rgb(145 70 255 / 0.2);
+    --linkedin-color:#5faed9;
+    --linkedin-bg:rgb(95 174 217 / 0.2);
 }

@@ -1,0 +1,91 @@
+/* projects page */
+
+.project-page {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.project-page .project .date {
+    right: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.project-page .project h4 {
+    font-weight: normal ;
+}
+
+.project-page .project .team {
+    position: relative;
+    min-height: 80px;
+}
+
+.project-page .project .team a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.project-page .project .team a:nth-child(2) {
+    left: 25px;
+}
+.project-page .project .team a:nth-child(3) {
+    left: 50px;
+}
+.project-page .project .team a:nth-child(4) {
+    left: 75px;
+}
+.project-page .project .team a:nth-child(5) {
+    left: 100px;
+}
+
+.project-page .project .team a:hover {
+    z-index: 1000;
+}
+
+.project-page .project .team a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.project-page .project .tech {
+ justify-content: flex-end;
+ border-top: 1px solid #EEE;
+ padding-top: 15px;
+ margin-top: 15px;
+}
+
+.project-page .project .info {
+    border-top: 1px solid #EEE;
+    margin-top:15px;
+    padding-top: 15px;
+}
+
+.project-page .project .tech span {
+    padding: 3px 8px ;
+    margin-left:  5px;
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+.project-page .project .prog {
+    height: 8px;
+    width: 260px;
+    position: relative;
+    border-radius: 6px;
+}
+
+.project-page .project .prog span {
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 6px;
+    
+}
+
+.project-page .project .info {
+
+}

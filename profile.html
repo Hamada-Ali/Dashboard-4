@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="t-center mt-0 p-relative">Agent</h3>
+        <ul class="list-none p-0">
+          <li>
+            <a href="index.html" class=" d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-chart-simple fa-fw"></i
+              ><span class="fs-14 no-mobile">Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="settings.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-gears"></i
+              ><span class="fs-14 no-mobile">Settings</span></a
+            >
+          </li>
+          <li>
+            <a href="courses.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-book"></i
+              ><span class="fs-14 no-mobile">courses</span></a
+            >
+          </li>
+          <li>
+            <a href="profile.html" class="active d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-user"></i><span class="fs-14 no-mobile">Profile</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-file"></i
+              ><span class="fs-14 no-mobile">Files</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-solid fa-money-check-dollar"></i
+              ><span class="fs-14 no-mobile">plans</span></a
+            >
+          </li>
+          <li>
+            <a href="projects.html" class="d-flex fs-14 c-black rad-6 p-10"
+              ><i class="fa-brands fa-r-project"></i
+              ><span class="fs-14 no-mobile">projects</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full overflow-hidden">
+        <!-- HEAD -->
+        <div class="head between-flex bg-white p-15">
+          <div class="search p-relative">
+            <input
+              type="search"
+              class="p-15 input-border"
+              placeholder="search"
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="avatar" />
+          </div>
+        </div>
+        <h1 class="p-relative">Profile</h1>
+        <div class="profile-page m-20">
+          <div class="overview bg-white rad-10 d-flex p-20 ">
+            <div class="avatar-box align-center text-center">
+              <img src="imgs/avatar.png" alt="profile image" class="mb-10 rad-50 ">
+              <h3 class="m-0">Agent</h3>
+              <p class="grey-color mt-10 fs-14">Level 2</p>
+              <div class="level rad-6 bg-eee p-relative">
+              <span style="width: 20%;"></span>
+            </div>
+            <div class="rating mt-10 mb-10">
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+            </div>
+            <p class="fs-13 m-0 grey-color">550 Rating</p>
+            </div>
+            <div class="info-box w-full text-center-mobile">
+              <!-- Start information row -->
+              <div class="box p-20 d-flex align-center">
+                <h4 class="grey-color fs-15 m-0 w-full">General information</h4>
+                <div class="fs-14">
+                  <span class="grey-color">Full Name:</span>
+                  <span>Agent</span>
+                </div>
+                <div class="fs-14">
+                  <span class="grey-color">Gender:</span>
+                  <span>ex.male</span>
+                </div>
+                <div class="fs-14">
+                  <span class="grey-color">Country:</span>
+                  <span>US</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" checked>
+                    <div class="toggle-switch modify"></div>
+                  </label>
+                </div>
+              </div>
+              <!-- End Padding row -->
+              <div class="box p-20 d-flex align-center">
+                <h4 class="grey-color fs-15 m-0 w-full">Personal information</h4>
+                <div class="fs-14">
+                  <span class="grey-color">Email:</span>
+                  <span>ex.Agent@x.com</span>
+                </div>
+                <div class="fs-14">
+                  <span class="grey-color">Phone:</span>
+                  <span>ex.+201028205282</span>
+                </div>
+                <div class="fs-14">
+                  <span class="grey-color">Birth of data:</span>
+                  <span>ex.20/20/2020</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" >
+                    <div class="toggle-switch modify"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="box p-20 d-flex align-center">
+                <h4 class="grey-color fs-15 m-0 w-full">Job</h4>
+                <div class="fs-14">
+                  <span class="grey-color">Job Title:</span>
+                  <span>Job Position</span>
+                </div>
+                <div class="fs-14">
+                  <span class="grey-color">salary:</span>
+                  <span>ex.$99999</span>
+                </div>
+                <div class="fs-14">
+                  <span class="grey-color">work hours:</span>
+                  <span>ex.8h</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" >
+                    <div class="toggle-switch modify"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Other Data -->
+          <div class="other-data d-flex gap-20">
+              <div class="skills-card p-20 bg-white rad-10 mt-20">
+                <h2 class="mt-0 mb-10">Skills</h2>
+                <p class="grey-color fs-15 mt-0 mb-20 ">Complete Skills List</p>
+                <ul class="m-0 text-center-mobile">
+                  <li><span>nodejs</span><span>.net</span><span>laravel</span></li>
+                  <li><span>JS</span><span>C#</span><span>PHP</span></li>
+                  <li><span>HTML</span><span>CSS</span><span>XML</span></li>
+                  <li><span>SCSS</span><span>SASS</span><span>JSON</span></li>
+                  <li><span>Angular</span><span>React</span><span>Vue</span></li>
+                </ul>
+              </div>
+              <div class="activities p-20 bg-white rad-10 mt-20">
+                <h2 class="mt-0 mb-10">Latest Activities</h2>
+                <p class="grey-color fs-15 mt-0 mb-20 ">Latest Activities Done by the Agent</p>
+                <div class="activity d-flex text-center-mobile">
+                  <img src="imgs/activity-01.png" alt="active1">
+                  <div class="info">
+                    <span class="d-block mb-10">Store</span>
+                    <span class="grey-color">Bought the Mastry Python Course</span>
+                  </div>
+                  <div class="date">
+                    <span class="d-block mb-10">18:10</span>
+                    <span class="grey-color">Yesterday</span>
+                  </div>
+                </div>
+                <div class="activity d-flex  text-center-mobile">
+                  <img src="imgs/activity-02.png" alt="active1">
+                  <div class="info">
+                    <span class="d-block mb-10">Get Latest courses</span>
+                    <span class="grey-color">Full Content you will find it here</span>
+                  </div>
+                  <div class="date">
+                    <span class="d-block mb-10">18:10</span>
+                    <span class="grey-color">Yesterday</span>
+                  </div>
+                </div>
+                <div class="activity d-flex text-center-mobile">
+                  <img src="imgs/activity-03.png" alt="active1">
+                  <div class="info">
+                    <span class="d-block mb-10">Badges</span>
+                    <span class="grey-color">Get our own Badges </span>
+                  </div>
+                  <div class="date">
+                    <span class="d-block mb-10">18:10</span>
+                    <span class="grey-color">Yesterday</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </section>
+  </body>
+</html>

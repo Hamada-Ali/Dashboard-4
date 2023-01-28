@@ -6,8 +6,17 @@
     color: black;
 }
 
+
+.c-blue {
+    color: var(--blue-color)
+}
+
 .bg-eee {
     background-color: var(--bg-eee);
+}
+
+.bg-red {
+    background-color: var(--red-color);
 }
 
 .grey-color {
@@ -21,4 +30,30 @@
 .white-color {
     color: #fff;
 }
+
+.c-orange {
+    color: orange;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.c-green {
+    color: green;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.c-cyan {
+    color:cyan
+}
+
+.c-red {
+    color: rgba(255, 0, 0, 0.504);
+}
+
+
 

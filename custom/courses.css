@@ -1,0 +1,38 @@
+/* Courses Page */
+
+.course-page {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+
+.course-page .course {
+    overflow: hidden;
+}
+
+.course-page .instructor {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #fff;
+}
+
+.course-page .cover {
+    width: 100%;
+}
+
+.course-page .info {
+    border-top: 1px solid #EEE;
+    font-size: 13px;
+}
+
+.course-page .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 27px;
+    top: -13px;
+}
+
