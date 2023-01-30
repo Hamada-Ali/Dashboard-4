@@ -1,0 +1,58 @@
+/* Friends Page */
+
+.friends-page {
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.friends-page .contact {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.friends-page .contact i {
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 50%;
+    color: #666;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.friends-page .friend .icons {
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.friends-page .friend img {
+    width: 110px;
+    height: 110px;
+}
+
+
+.friends-page .friend .icons i {
+    margin-right: 5px;
+}
+
+.friends-page .friend .icons .vip {
+    color: orange;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    opacity: 0.2;
+}
+
+.friends-page .contact i:hover {
+    background-color: var(--blue-color);
+    color: #FFF;
+}

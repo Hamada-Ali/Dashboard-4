@@ -1,0 +1,71 @@
+/* Files Page */
+
+.file-page {
+    align-items: flex-start;
+}
+
+.file-page .file-status {
+    min-width: 260px;
+}
+
+.file-page .file-status .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.file-page .file-status .size {
+    margin-left: auto;
+}
+
+.file-page .file-status .blue {
+    background-color: #0075ff33;
+}
+
+.file-page .file-status .red {
+    background-color: var(--bg-red);
+}
+
+.file-page .file-status .orange {
+    background-color: var(--orange-color);
+}
+
+.file-page .file-status .green {
+    background-color: var(--green-color);
+}
+
+.file-page .file-status .info > span {
+    font-size: 14px;
+}
+
+.file-page .file-status .upload {
+    margin: 15px auto 0;
+    transition: 0.3s;
+}
+
+.file-page .file-status .upload:hover {
+    background-color: var(--blue-alt-color);
+}
+
+.file-page .file-status .upload i {
+
+}
+
+.file-page .file-content {
+    flex: 1;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+}
+
+.file-page .file-content img {
+    width: 64px;
+    height: 64px;
+    transition: 0.3s;
+}
+
+.file-page .file-content .file:hover img {
+    transform: rotate(5deg);
+}
+
+.file-page .file-content .info {
+    border-top: 1px solid #EEE;
+}

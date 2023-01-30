@@ -1,0 +1,71 @@
+/* plans page */
+
+.plan-page {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+}
+
+.plan-page .plan .top {
+    border: 3px solid #FFF;
+    outline: 3px solid transparent;
+}
+
+.plan-page .plan.green .top {
+    outline-color: var(--green-color);
+}
+
+.plan-page .plan.blue .top {
+    outline-color: var(--blue-color);
+}
+
+.plan-page .plan.orange .top {
+    outline-color: var(--orange-color);
+}
+
+.plan-page .plan .price {
+    position: relative;
+    font-size: 40px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.plan-page .plan .price span {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    font-size: 28px;
+}
+
+.plan-page ul {
+    padding-left: 0;
+}
+
+.plan-page  ul li {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.plan-page  ul li:not(:last-of-type) {
+    border-bottom: 1px solid #EEE;
+}
+
+.plan-page .plan ul li .yes {
+    color: var(--solid-green-color);
+}
+
+.plan-page .plan ul li i:not(.yes, .help) {
+    color: var(--red-color);
+}
+
+.plan-page .plan ul li i:first-child {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.plan-page .plan ul li .help {
+    color: var(--grey-color);
+    margin-left: auto;
+}

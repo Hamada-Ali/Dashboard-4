@@ -73,3 +73,8 @@ a {
 .overflow-hidden {
     overflow: hidden;
 }
+
+
+.border-eee {
+    border: 1px solid #EEE;
+}
